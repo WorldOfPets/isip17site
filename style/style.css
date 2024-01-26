@@ -1,0 +1,36 @@
+/* h1 {
+    color: #2d61d3dd;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.custom-h1{
+    color: tomato;
+    border-radius: 15px;
+    width: 30%;
+    padding: 15px;
+    border: solid;
+    border-width: thick;
+    border-color: black;
+    transition-duration: 1s;
+    margin: 10px;
+}
+
+.custom-h1:hover{
+    color: #0081ff;
+    background-color: tomato;
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px lightgray;
+    cursor: pointer;
+}
+body {
+    background-image: url("/src/task1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* #h1-id{
+    color: red;
+} */
